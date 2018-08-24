@@ -1,0 +1,9 @@
+[PM2] Applying action restartProcessId on app [app](ids: 0)
+[PM2] [app](0) ✓
+[PM2] Process successfully started
+┌──────────┬────┬──────┬───────┬────────┬─────────┬────────┬─────┬──────────┬──────────┬──────────┐
+│ App name │ id │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem      │ user     │ watching │
+├──────────┼────┼──────┼───────┼────────┼─────────┼────────┼─────┼──────────┼──────────┼──────────┤
+│ app      │ 0  │ fork │ 54773 │ online │ 0       │ 0s     │ 0%  │ 9.8 MB   │ Maksymas │ disabled │
+└──────────┴────┴──────┴───────┴────────┴─────────┴────────┴─────┴──────────┴──────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app

@@ -1,0 +1,962 @@
+[
+  {
+    "ticker": "PAVM",
+    "close_price": "1.1100",
+    "trend": -19.57,
+    "volume": 2131063
+  },
+  {
+    "ticker": "SMRT",
+    "close_price": "2.6500",
+    "trend": -12.83,
+    "volume": 1573996
+  },
+  {
+    "ticker": "CKPT",
+    "close_price": "3.7200",
+    "trend": -12.26,
+    "volume": 252333
+  },
+  {
+    "ticker": "CYTX",
+    "close_price": "0.6090",
+    "trend": -11.78,
+    "volume": 3666396
+  },
+  {
+    "ticker": "YECO",
+    "close_price": "1.8300",
+    "trend": -11.59,
+    "volume": 240040
+  },
+  {
+    "ticker": "SAEX",
+    "close_price": "0.5300",
+    "trend": -10.14,
+    "volume": 243780
+  },
+  {
+    "ticker": "FVE",
+    "close_price": "0.9000",
+    "trend": -10,
+    "volume": 262316
+  },
+  {
+    "ticker": "RRTS",
+    "close_price": "1.4400",
+    "trend": -10,
+    "volume": 917692
+  },
+  {
+    "ticker": "CVM",
+    "close_price": "1.3800",
+    "trend": -9.8,
+    "volume": 780270
+  },
+  {
+    "ticker": "AMRH",
+    "close_price": "1.5000",
+    "trend": -9.64,
+    "volume": 106900
+  },
+  {
+    "ticker": "VLRX",
+    "close_price": "1.1799",
+    "trend": -9.17,
+    "volume": 775407
+  },
+  {
+    "ticker": "PRPO",
+    "close_price": "0.4350",
+    "trend": -8.42,
+    "volume": 1086372
+  },
+  {
+    "ticker": "SSI",
+    "close_price": "2.1100",
+    "trend": -8.26,
+    "volume": 619375
+  },
+  {
+    "ticker": "ALO",
+    "close_price": "0.7066",
+    "trend": -8.23,
+    "volume": 600128
+  },
+  {
+    "ticker": "GALT",
+    "close_price": "4.2600",
+    "trend": -8.19,
+    "volume": 690518
+  },
+  {
+    "ticker": "GBR",
+    "close_price": "2.1700",
+    "trend": -8.05,
+    "volume": 262945
+  },
+  {
+    "ticker": "JMU",
+    "close_price": "1.5400",
+    "trend": -7.78,
+    "volume": 107622
+  },
+  {
+    "ticker": "AMPE",
+    "close_price": "0.5788",
+    "trend": -7.73,
+    "volume": 2723828
+  },
+  {
+    "ticker": "SCYX",
+    "close_price": "1.2650",
+    "trend": -7.66,
+    "volume": 647871
+  },
+  {
+    "ticker": "SENS",
+    "close_price": "3.4400",
+    "trend": -7.53,
+    "volume": 2384672
+  },
+  {
+    "ticker": "SYN",
+    "close_price": "2.7300",
+    "trend": -7.46,
+    "volume": 198172
+  },
+  {
+    "ticker": "APHB",
+    "close_price": "1.0000",
+    "trend": -7.41,
+    "volume": 183764
+  },
+  {
+    "ticker": "FLNT",
+    "close_price": "2.2500",
+    "trend": -7.22,
+    "volume": 188066
+  },
+  {
+    "ticker": "IAG",
+    "close_price": "3.9400",
+    "trend": -6.86,
+    "volume": 5044219
+  },
+  {
+    "ticker": "RSLS",
+    "close_price": "0.0660",
+    "trend": -6.78,
+    "volume": 7790706
+  },
+  {
+    "ticker": "IPWR",
+    "close_price": "0.7180",
+    "trend": -6.75,
+    "volume": 182514
+  },
+  {
+    "ticker": "ELGX",
+    "close_price": "2.3600",
+    "trend": -6.72,
+    "volume": 942228
+  },
+  {
+    "ticker": "DTRM",
+    "close_price": "0.7738",
+    "trend": -6.6,
+    "volume": 109731
+  },
+  {
+    "ticker": "NFEC",
+    "close_price": "4.4100",
+    "trend": -6.57,
+    "volume": 126187
+  },
+  {
+    "ticker": "RVLT",
+    "close_price": "2.5600",
+    "trend": -6.57,
+    "volume": 112950
+  },
+  {
+    "ticker": "TAHO",
+    "close_price": "3.6000",
+    "trend": -6.25,
+    "volume": 4454438
+  },
+  {
+    "ticker": "NG",
+    "close_price": "3.4500",
+    "trend": -6.25,
+    "volume": 2862985
+  },
+  {
+    "ticker": "HMY",
+    "close_price": "1.5400",
+    "trend": -6.1,
+    "volume": 2993039
+  },
+  {
+    "ticker": "SHLD",
+    "close_price": "1.1100",
+    "trend": -5.93,
+    "volume": 1898311
+  },
+  {
+    "ticker": "AST",
+    "close_price": "1.6000",
+    "trend": -5.88,
+    "volume": 160627
+  },
+  {
+    "ticker": "CIG",
+    "close_price": "1.7600",
+    "trend": -5.88,
+    "volume": 4494306
+  },
+  {
+    "ticker": "HL",
+    "close_price": "2.6900",
+    "trend": -5.86,
+    "volume": 4783131
+  },
+  {
+    "ticker": "AMRN",
+    "close_price": "2.7500",
+    "trend": -5.82,
+    "volume": 3949937
+  },
+  {
+    "ticker": "YUMA",
+    "close_price": "0.2853",
+    "trend": -5.81,
+    "volume": 131211
+  },
+  {
+    "ticker": "AGI",
+    "close_price": "4.2500",
+    "trend": -5.76,
+    "volume": 1566621
+  },
+  {
+    "ticker": "FORD",
+    "close_price": "1.5200",
+    "trend": -5.59,
+    "volume": 287119
+  },
+  {
+    "ticker": "CTHR",
+    "close_price": "0.9820",
+    "trend": -5.58,
+    "volume": 241841
+  },
+  {
+    "ticker": "BBOX",
+    "close_price": "1.3600",
+    "trend": -5.56,
+    "volume": 281500
+  },
+  {
+    "ticker": "CLDX",
+    "close_price": "0.4710",
+    "trend": -5.52,
+    "volume": 2447619
+  },
+  {
+    "ticker": "TNK",
+    "close_price": "1.0300",
+    "trend": -5.5,
+    "volume": 985026
+  },
+  {
+    "ticker": "OHGI",
+    "close_price": "0.2359",
+    "trend": -5.45,
+    "volume": 596016
+  },
+  {
+    "ticker": "FBIO",
+    "close_price": "1.9100",
+    "trend": -5.45,
+    "volume": 208527
+  },
+  {
+    "ticker": "HAIR",
+    "close_price": "1.6500",
+    "trend": -5.17,
+    "volume": 364715
+  },
+  {
+    "ticker": "USAU",
+    "close_price": "1.1390",
+    "trend": -5.08,
+    "volume": 120265
+  },
+  {
+    "ticker": "TNXP",
+    "close_price": "1.1300",
+    "trend": -5.04,
+    "volume": 669127
+  },
+  {
+    "ticker": "NTEC",
+    "close_price": "3.8000",
+    "trend": -5,
+    "volume": 137695
+  },
+  {
+    "ticker": "ABIL",
+    "close_price": "4.0000",
+    "trend": -4.99,
+    "volume": 240272
+  },
+  {
+    "ticker": "ELP",
+    "close_price": "4.8000",
+    "trend": -4.95,
+    "volume": 430149
+  },
+  {
+    "ticker": "AKS",
+    "close_price": "4.2500",
+    "trend": -4.92,
+    "volume": 13464316
+  },
+  {
+    "ticker": "SID",
+    "close_price": "2.1700",
+    "trend": -4.82,
+    "volume": 2208247
+  },
+  {
+    "ticker": "NGD",
+    "close_price": "1.0000",
+    "trend": -4.76,
+    "volume": 2836790
+  },
+  {
+    "ticker": "JONE",
+    "close_price": "0.3220",
+    "trend": -4.73,
+    "volume": 677343
+  },
+  {
+    "ticker": "GST",
+    "close_price": "0.0920",
+    "trend": -4.66,
+    "volume": 3045380
+  },
+  {
+    "ticker": "RTTR",
+    "close_price": "1.8500",
+    "trend": -4.64,
+    "volume": 213016
+  },
+  {
+    "ticker": "GGB",
+    "close_price": "3.7800",
+    "trend": -4.61,
+    "volume": 6587087
+  },
+  {
+    "ticker": "MUX",
+    "close_price": "1.8800",
+    "trend": -4.57,
+    "volume": 2714996
+  },
+  {
+    "ticker": "SAND",
+    "close_price": "3.5600",
+    "trend": -4.56,
+    "volume": 1448994
+  },
+  {
+    "ticker": "BDSI",
+    "close_price": "2.6500",
+    "trend": -4.5,
+    "volume": 173165
+  },
+  {
+    "ticker": "AKG",
+    "close_price": "0.8301",
+    "trend": -4.47,
+    "volume": 242323
+  },
+  {
+    "ticker": "ESNC",
+    "close_price": "0.3160",
+    "trend": -4.45,
+    "volume": 157412
+  },
+  {
+    "ticker": "JE",
+    "close_price": "2.8000",
+    "trend": -4.44,
+    "volume": 381543
+  },
+  {
+    "ticker": "ACHN",
+    "close_price": "2.8000",
+    "trend": -4.44,
+    "volume": 1010193
+  },
+  {
+    "ticker": "CTIC",
+    "close_price": "1.7500",
+    "trend": -4.37,
+    "volume": 323708
+  },
+  {
+    "ticker": "BTG",
+    "close_price": "2.2100",
+    "trend": -4.33,
+    "volume": 3027510
+  },
+  {
+    "ticker": "GNCA",
+    "close_price": "0.6000",
+    "trend": -4.25,
+    "volume": 295557
+  },
+  {
+    "ticker": "ONCS",
+    "close_price": "1.3700",
+    "trend": -4.2,
+    "volume": 333444
+  },
+  {
+    "ticker": "HLTH",
+    "close_price": "0.7568",
+    "trend": -4.2,
+    "volume": 317183
+  },
+  {
+    "ticker": "INPX",
+    "close_price": "0.1268",
+    "trend": -4.16,
+    "volume": 617826
+  },
+  {
+    "ticker": "IPAS",
+    "close_price": "2.1100",
+    "trend": -4.13,
+    "volume": 572871
+  },
+  {
+    "ticker": "ANY",
+    "close_price": "0.2699",
+    "trend": -4.12,
+    "volume": 161320
+  },
+  {
+    "ticker": "GNMX",
+    "close_price": "1.1800",
+    "trend": -4.07,
+    "volume": 130790
+  },
+  {
+    "ticker": "ANFI",
+    "close_price": "1.7300",
+    "trend": -3.89,
+    "volume": 104615
+  },
+  {
+    "ticker": "FLKS",
+    "close_price": "0.5100",
+    "trend": -3.88,
+    "volume": 118001
+  },
+  {
+    "ticker": "EBR",
+    "close_price": "3.7300",
+    "trend": -3.87,
+    "volume": 424955
+  },
+  {
+    "ticker": "LKM",
+    "close_price": "1.0000",
+    "trend": -3.85,
+    "volume": 375634
+  },
+  {
+    "ticker": "NM",
+    "close_price": "0.8553",
+    "trend": -3.78,
+    "volume": 282688
+  },
+  {
+    "ticker": "SEAC",
+    "close_price": "1.5400",
+    "trend": -3.75,
+    "volume": 418656
+  },
+  {
+    "ticker": "LMFA",
+    "close_price": "0.3847",
+    "trend": -3.7,
+    "volume": 104107
+  },
+  {
+    "ticker": "BRFS",
+    "close_price": "4.7700",
+    "trend": -3.64,
+    "volume": 2006974
+  },
+  {
+    "ticker": "MARA",
+    "close_price": "0.8600",
+    "trend": -3.59,
+    "volume": 536338
+  },
+  {
+    "ticker": "FTK",
+    "close_price": "2.2000",
+    "trend": -3.51,
+    "volume": 1300292
+  },
+  {
+    "ticker": "TPNL",
+    "close_price": "3.0400",
+    "trend": -3.49,
+    "volume": 114996
+  },
+  {
+    "ticker": "KTOV",
+    "close_price": "1.6600",
+    "trend": -3.49,
+    "volume": 117550
+  },
+  {
+    "ticker": "AQMS",
+    "close_price": "2.2400",
+    "trend": -3.45,
+    "volume": 326918
+  },
+  {
+    "ticker": "FSM",
+    "close_price": "4.5200",
+    "trend": -3.42,
+    "volume": 604518
+  },
+  {
+    "ticker": "LEE",
+    "close_price": "2.8500",
+    "trend": -3.39,
+    "volume": 364145
+  },
+  {
+    "ticker": "APRI",
+    "close_price": "0.2800",
+    "trend": -3.38,
+    "volume": 402353
+  },
+  {
+    "ticker": "DCIX",
+    "close_price": "1.3150",
+    "trend": -3.31,
+    "volume": 270472
+  },
+  {
+    "ticker": "EGO",
+    "close_price": "0.9600",
+    "trend": -3.27,
+    "volume": 4238046
+  },
+  {
+    "ticker": "AUY",
+    "close_price": "2.6700",
+    "trend": -3.26,
+    "volume": 14416422
+  },
+  {
+    "ticker": "IPCI",
+    "close_price": "0.2466",
+    "trend": -3.26,
+    "volume": 483834
+  },
+  {
+    "ticker": "ASM",
+    "close_price": "0.9299",
+    "trend": -3.25,
+    "volume": 107994
+  },
+  {
+    "ticker": "GEMP",
+    "close_price": "1.5000",
+    "trend": -3.23,
+    "volume": 353704
+  },
+  {
+    "ticker": "AUMN",
+    "close_price": "0.2528",
+    "trend": -3.18,
+    "volume": 124828
+  },
+  {
+    "ticker": "TIS",
+    "close_price": "2.4700",
+    "trend": -3.14,
+    "volume": 287037
+  },
+  {
+    "ticker": "LIFE",
+    "close_price": "0.6200",
+    "trend": -3.11,
+    "volume": 583737
+  },
+  {
+    "ticker": "HBM",
+    "close_price": "4.7500",
+    "trend": -3.06,
+    "volume": 447452
+  },
+  {
+    "ticker": "ENIC",
+    "close_price": "4.8100",
+    "trend": -3.02,
+    "volume": 360310
+  },
+  {
+    "ticker": "AWX",
+    "close_price": "4.0400",
+    "trend": 3.06,
+    "volume": 862292
+  },
+  {
+    "ticker": "FLL",
+    "close_price": "3.0300",
+    "trend": 3.06,
+    "volume": 161733
+  },
+  {
+    "ticker": "PLUG",
+    "close_price": "2.0100",
+    "trend": 3.08,
+    "volume": 5719710
+  },
+  {
+    "ticker": "NVFY",
+    "close_price": "1.8150",
+    "trend": 3.12,
+    "volume": 143188
+  },
+  {
+    "ticker": "AVGR",
+    "close_price": "1.2700",
+    "trend": 3.25,
+    "volume": 592783
+  },
+  {
+    "ticker": "DBD",
+    "close_price": "4.5500",
+    "trend": 3.41,
+    "volume": 1650936
+  },
+  {
+    "ticker": "QTRH",
+    "close_price": "1.4300",
+    "trend": 3.62,
+    "volume": 219771
+  },
+  {
+    "ticker": "ICD",
+    "close_price": "4.2500",
+    "trend": 3.66,
+    "volume": 236090
+  },
+  {
+    "ticker": "KDMN",
+    "close_price": "3.7500",
+    "trend": 3.88,
+    "volume": 1184705
+  },
+  {
+    "ticker": "RGLS",
+    "close_price": "0.2732",
+    "trend": 4.12,
+    "volume": 5462896
+  },
+  {
+    "ticker": "NVLN",
+    "close_price": "3.2500",
+    "trend": 4.17,
+    "volume": 102260
+  },
+  {
+    "ticker": "TMQ",
+    "close_price": "1.9900",
+    "trend": 4.19,
+    "volume": 318441
+  },
+  {
+    "ticker": "LUNA",
+    "close_price": "3.6500",
+    "trend": 4.29,
+    "volume": 126688
+  },
+  {
+    "ticker": "LLNW",
+    "close_price": "4.3200",
+    "trend": 4.35,
+    "volume": 1149929
+  },
+  {
+    "ticker": "CDTI",
+    "close_price": "0.4283",
+    "trend": 4.46,
+    "volume": 2078535
+  },
+  {
+    "ticker": "AGRX",
+    "close_price": "0.2670",
+    "trend": 4.5,
+    "volume": 2099394
+  },
+  {
+    "ticker": "SUMR",
+    "close_price": "1.8000",
+    "trend": 4.65,
+    "volume": 250631
+  },
+  {
+    "ticker": "ALSK",
+    "close_price": "1.8000",
+    "trend": 4.65,
+    "volume": 535855
+  },
+  {
+    "ticker": "HEB",
+    "close_price": "0.2674",
+    "trend": 4.7,
+    "volume": 454070
+  },
+  {
+    "ticker": "PULM",
+    "close_price": "0.3702",
+    "trend": 4.93,
+    "volume": 585026
+  },
+  {
+    "ticker": "BLNK",
+    "close_price": "3.2700",
+    "trend": 5.14,
+    "volume": 275821
+  },
+  {
+    "ticker": "IDXG",
+    "close_price": "1.1800",
+    "trend": 5.36,
+    "volume": 949453
+  },
+  {
+    "ticker": "LPTH",
+    "close_price": "2.1600",
+    "trend": 5.37,
+    "volume": 259557
+  },
+  {
+    "ticker": "LTBR",
+    "close_price": "0.9700",
+    "trend": 5.43,
+    "volume": 113077
+  },
+  {
+    "ticker": "SDR",
+    "close_price": "1.5400",
+    "trend": 5.48,
+    "volume": 211614
+  },
+  {
+    "ticker": "AVEO",
+    "close_price": "2.5000",
+    "trend": 5.49,
+    "volume": 2082083
+  },
+  {
+    "ticker": "MEET",
+    "close_price": "4.3200",
+    "trend": 5.62,
+    "volume": 850143
+  },
+  {
+    "ticker": "IGC",
+    "close_price": "0.5399",
+    "trend": 5.86,
+    "volume": 1447519
+  },
+  {
+    "ticker": "SITO",
+    "close_price": "1.5700",
+    "trend": 6.08,
+    "volume": 178321
+  },
+  {
+    "ticker": "MOSY",
+    "close_price": "0.8700",
+    "trend": 6.1,
+    "volume": 542986
+  },
+  {
+    "ticker": "SSKN",
+    "close_price": "2.7500",
+    "trend": 6.18,
+    "volume": 381623
+  },
+  {
+    "ticker": "INSG",
+    "close_price": "3.0900",
+    "trend": 6.19,
+    "volume": 1815819
+  },
+  {
+    "ticker": "ALT",
+    "close_price": "0.3189",
+    "trend": 6.19,
+    "volume": 516747
+  },
+  {
+    "ticker": "NAVB",
+    "close_price": "0.1799",
+    "trend": 6.26,
+    "volume": 314161
+  },
+  {
+    "ticker": "GEN",
+    "close_price": "1.6900",
+    "trend": 6.29,
+    "volume": 614121
+  },
+  {
+    "ticker": "NNA",
+    "close_price": "0.5854",
+    "trend": 6.44,
+    "volume": 667078
+  },
+  {
+    "ticker": "VRML",
+    "close_price": "0.6200",
+    "trend": 6.9,
+    "volume": 151901
+  },
+  {
+    "ticker": "NNVC",
+    "close_price": "0.3000",
+    "trend": 7.1,
+    "volume": 147256
+  },
+  {
+    "ticker": "CATB",
+    "close_price": "0.7025",
+    "trend": 7.17,
+    "volume": 1416190
+  },
+  {
+    "ticker": "BTE",
+    "close_price": "3.2400",
+    "trend": 7.28,
+    "volume": 3606938
+  },
+  {
+    "ticker": "OGEN",
+    "close_price": "0.4597",
+    "trend": 7.94,
+    "volume": 577096
+  },
+  {
+    "ticker": "REFR",
+    "close_price": "1.1800",
+    "trend": 8.26,
+    "volume": 274127
+  },
+  {
+    "ticker": "EARS",
+    "close_price": "0.2899",
+    "trend": 8.58,
+    "volume": 1480474
+  },
+  {
+    "ticker": "QTM",
+    "close_price": "2.3500",
+    "trend": 8.8,
+    "volume": 443033
+  },
+  {
+    "ticker": "NAKD",
+    "close_price": "4.5000",
+    "trend": 9.76,
+    "volume": 205365
+  },
+  {
+    "ticker": "PEIX",
+    "close_price": "1.9500",
+    "trend": 9.86,
+    "volume": 841076
+  },
+  {
+    "ticker": "DHX",
+    "close_price": "2.2000",
+    "trend": 10,
+    "volume": 936552
+  },
+  {
+    "ticker": "ATLC",
+    "close_price": "2.5800",
+    "trend": 10.73,
+    "volume": 425901
+  },
+  {
+    "ticker": "IZEA",
+    "close_price": "1.5300",
+    "trend": 11.68,
+    "volume": 276761
+  },
+  {
+    "ticker": "SLS",
+    "close_price": "1.0300",
+    "trend": 13.14,
+    "volume": 2259850
+  },
+  {
+    "ticker": "SNES",
+    "close_price": "0.9204",
+    "trend": 13.25,
+    "volume": 1496655
+  },
+  {
+    "ticker": "CHFS",
+    "close_price": "1.2510",
+    "trend": 13.73,
+    "volume": 1133626
+  },
+  {
+    "ticker": "REED",
+    "close_price": "2.7000",
+    "trend": 14.89,
+    "volume": 229182
+  },
+  {
+    "ticker": "BIOC",
+    "close_price": "3.5500",
+    "trend": 18.33,
+    "volume": 508258
+  },
+  {
+    "ticker": "BPMX",
+    "close_price": "0.1550",
+    "trend": 19.23,
+    "volume": 7339925
+  },
+  {
+    "ticker": "LEJU",
+    "close_price": "1.7900",
+    "trend": 39.84,
+    "volume": 6000410
+  },
+  {
+    "ticker": "OBLN",
+    "close_price": "2.6600",
+    "trend": 52,
+    "volume": 2736642
+  }
+]

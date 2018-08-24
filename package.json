@@ -1,0 +1,35 @@
+{
+  "name": "rh-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "pm2 start app.js -i 1",
+    "start:node": "babel-node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "coveralls": "^3.0.2",
+    "nyc": "^13.0.1",
+    "standard-version": "^4.3.0"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "axios": "^0.18.0",
+    "delay": "^3.1.0",
+    "es6-promise": "^4.2.4",
+    "lodash": "^4.17.4",
+    "mz": "^2.7.0",
+    "promise": "^7.1.1",
+    "promise-map-limit": "^1.0.0",
+    "query-string": "^4.3.2",
+    "request": "^2.79.0",
+    "robinhood": "^1.5.1",
+    "should": "^11.1.1",
+    "yahoo-finance": "^0.3.5"
+  }
+}
