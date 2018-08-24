@@ -1,4 +1,4 @@
-import login from './rh-action/login';
+import { login } from './rh-action/login';
 import { getAccount } from './get-account';
 import recurseUrl from './utils/recurse-url';
 import saveJSON from './save-json';
