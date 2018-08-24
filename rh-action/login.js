@@ -2,7 +2,7 @@ import { credentials } from '../config';
 import robinhoodLib from 'robinhood';
 import retryPromise from '../utils/retry-promise';
 
-const login = () => {
+export const login = () => {
     return new Promise((resolve) => {
         console.log('initializing Robinhood');
         const Robinhood = robinhoodLib(credentials, () => {
@@ -24,5 +24,3 @@ const login = () => {
         });
     });
 };
-
-export default login;
