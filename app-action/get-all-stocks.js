@@ -11,9 +11,9 @@ const getAllStocks = async () => {
             .filter(stock => stock.tradeable && stock.tradability === 'tradable')
             .map(stock => stock.symbol);
 
-        await save(`./json/stock-data/allStocks.json`, allTickers);
+        await save('./json/stock-data/allStocks.json', allTickers);
     }
     return allTickers;
-}
+};
 
 export default getAllStocks;

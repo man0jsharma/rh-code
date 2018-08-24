@@ -36,18 +36,18 @@ export default async (tickers, qs = 'interval=day') => {
 
     const gettopMoversOfYesterday = () => {
         const formatedHistoricalData = getFormatedHistoricalData();
-        const topMoversOfYesterday = []
+        const topMoversOfYesterday = [];
         formatedHistoricalData.map(tickerData => {
             if (Math.abs(tickerData.historical[0].trend) > 3 && tickerData.historical[0].volume >= 100000) {
                 const { ticker } = tickerData;
                 const {trend, volume, close_price} = tickerData.historical[0];
                 topMoversOfYesterday.push({
                     ticker, close_price, trend, volume
-                })
+                });
             }
-        })
+        });
         return orderBy(topMoversOfYesterday, 'trend', 'asc');
-    }
+    };
     return gettopMoversOfYesterday();
 
 };
