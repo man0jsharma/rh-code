@@ -2,7 +2,7 @@ import chunkApi from '../utils/chunk-api';
 import getTrend from '../utils/get-trend';
 
 export default async (stocks) => {
-   console.log('multiple')
+    console.log('multiple');
     let quotes = await chunkApi(
         stocks,
         async (tickerStr) => {
@@ -23,4 +23,4 @@ export default async (stocks) => {
         };
     });
     return withQuotes;
-}
+};

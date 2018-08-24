@@ -9,9 +9,9 @@ const getStockData = (ticker, isFull = false) => {
             } else {
                 reject(error);
             }
-        })
-    })
-}
+        });
+    });
+};
 
 
 export default getStockData;

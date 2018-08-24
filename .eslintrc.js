@@ -32,5 +32,8 @@ module.exports = {
             2,
             "always"
         ]
+    },
+    "globals": {
+        "Robinhood": true
     }
 };
