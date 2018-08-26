@@ -1,18 +1,10 @@
 import { login } from './rh-action/login';
-import { getAccount } from './get-account';
-import recurseUrl from './utils/recurse-url';
 import saveJSON from './save-json';
-import _ from 'lodash';
 import getAllStocks from './app-action/get-all-stocks';
 import getTrendSinceOpen from './app-action/get-trend-since-open';
-// const getMultipleHistoricals = require('./app-action/get-multiple-historicals');
-import getMultipleHistoricals from './app-action/get-next-days-of-5%rise';
-// 
-import mapLimit from 'promise-map-limit';
-import delay from 'delay';
-import 'es6-promise/auto';
-
-// const blackListStocks = ['MBNAB', 'MBNAA'];
+import getMultipleHistoricals from './app-action/get-multiple-historicals';
+import getYesterdayBigMovers from './app-action/gettopMoversOfYesterday';
+import isSuccessFullTrade from './app-action/isSuccessFullTrade';
 
 (async () => {
     try {
@@ -20,14 +12,14 @@ import 'es6-promise/auto';
         global.Robinhood = Robinhood;
 
         //Get all stocks
-        // const allStocks = await getAllStocks();
+        const allStocks = await getAllStocks();
 
-        const trend = await getTrendSinceOpen(['NOK']);
+        const trend = await getTrendSinceOpen(allStocks);
 
-        console.log(trend);
+        // console.log(trend);
 
         //Filter penny stock
-        // const pennyStocks = trend.filter(t => t.last_trade_price < 5).map(data => data.ticker);
+        const pennyStocks = trend.filter(t => t.last_trade_price < 5).map(data => data.ticker);
 
         // const results = await getMultipleHistoricals(pennyStocks.map(stock => stock.ticker));
 
@@ -39,9 +31,29 @@ import 'es6-promise/auto';
         //     await getMultipleHistoricals(ticker);
         // });
 
-        // let allHistorical = await getMultipleHistoricals(pennyStocks);
+        let allYesterdayBigMovers = await getYesterdayBigMovers(['NOK']);
+
+        let todayStatus = await getTrendSinceOpen(allYesterdayBigMovers.map(movers => movers.ticker));
+
         // console.log(allHistorical)
-        // saveJSON('./json/hiDividends.json', allHistorical);
+        todayStatus = todayStatus.map(stock => {
+            const { ticker, trend_since_prev_close } = stock;
+            const yesterdayTrend = allYesterdayBigMovers.find(mover => mover.ticker === stock.ticker);
+            return { ticker, trend_since_prev_close, yesterdayTrend: yesterdayTrend.trend };
+        });
+        saveJSON('./json/allYesterdayBigMovers.json', allYesterdayBigMovers);
+        saveJSON('./json/todayStatus.json', todayStatus);
+
+        let min10Data = await getMultipleHistoricals(
+            // allYesterdayBigMovers.filter(mover => mover.trend < 0).map(movers => movers.ticker),
+            ['NOK'],
+            'interval=10minute',
+            'span=week'
+        );
+
+        saveJSON('./json/min5Data.json', min10Data);
+        const totalReport = isSuccessFullTrade(min10Data);
+        saveJSON('./json/totalReport.json', totalReport);
         // console.log(results.filter(data => !!data));
     }
     catch (err) {

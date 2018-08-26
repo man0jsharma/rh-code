@@ -1,0 +1,14 @@
+import getSingleHistorical from './get-single-historical';
+import saveJSON from '../save-json';
+import { login } from '../rh-action/login';
+
+(async () => {
+    const Robinhood = await login();
+    global.Robinhood = Robinhood;
+    const getTopMovers52WeeksResult = await getSingleHistorical(
+        'CKPT',
+        'interval=day',
+        'span=year'
+    );
+    saveJSON('./json/getTopMovers52Weeks.json', getTopMovers52WeeksResult);
+})();
