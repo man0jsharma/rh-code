@@ -1,9 +1,9 @@
 import chunkApi from '../utils/chunk-api';
 import getTrend from '../utils/get-trend';
 import { orderBy } from 'lodash';
+import convertUtcToET from '../utils/convertUtcToET';
 
-export default async (tickers, qs = 'interval=day') => {
-
+const getYesterdayBigMovers = async (tickers, qs = 'interval=day') => {
     const allHistoricals = await chunkApi(
         tickers,
         async (tickerStr) => {
@@ -37,12 +37,13 @@ export default async (tickers, qs = 'interval=day') => {
     const gettopMoversOfYesterday = () => {
         const formatedHistoricalData = getFormatedHistoricalData();
         const topMoversOfYesterday = [];
+        console.log(formatedHistoricalData);
         formatedHistoricalData.map(tickerData => {
             if (Math.abs(tickerData.historical[0].trend) > 3 && tickerData.historical[0].volume >= 100000) {
                 const { ticker } = tickerData;
-                const {trend, volume, close_price} = tickerData.historical[0];
+                const { trend, volume, close_price, begins_at } = tickerData.historical[0];
                 topMoversOfYesterday.push({
-                    ticker, close_price, trend, volume
+                    ticker, begins_at: convertUtcToET(begins_at), close_price, trend, volume
                 });
             }
         });
@@ -51,3 +52,5 @@ export default async (tickers, qs = 'interval=day') => {
     return gettopMoversOfYesterday();
 
 };
+
+export default getYesterdayBigMovers;

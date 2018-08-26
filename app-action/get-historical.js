@@ -13,5 +13,4 @@ const getStockData = (ticker, isFull = false) => {
     });
 };
 
-
 export default getStockData;
